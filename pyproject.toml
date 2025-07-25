@@ -1,0 +1,18 @@
+[project]
+name = "jinkomegami"
+version = "0.1.0"
+description = "Environment-Aware Humanoid*"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = []
+[dependency-groups]
+dev = ["ruff>=0.12.5"]
+[tool.setuptools]
+packages = ["jinkomegami"]
+
+[tool.ruff]
+line-length = 80
+
+[tool.ruff.lint]
+target-version = "py313"
+quote-style = "single"

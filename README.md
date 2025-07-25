@@ -27,4 +27,40 @@ The system is designed around a modular "Sense → Perceive → Reason → Act" 
   This is the final output you see and hear. The action command from the Reasoning stage is sent to a 3D engine or other frontend, which executes the visual animation and plays the audible response.
 
 
----
+
+## Configuration and Setup
+
+1. This project is managed by `uv`, make sure you have it installed.
+It can be found at https://docs.astral.sh/uv/getting-started/installation/
+
+2. With `uv` available, clone this repository if not already and `cd` into the directory.
+
+3. Install the required python version using `uv`: 
+
+```shell 
+uv python install 3.13
+```
+
+4. Create a new virtual environment if this is your first time setting it up:
+
+```shell
+uv venv --managed-python
+```
+
+more info can be found at their [docs](https://docs.astral.sh/uv/reference/cli/#uv-venv)
+
+5. Install dependencies by running:
+```shell
+uv sync
+```
+
+Ruff is used to lint the project, to run it use:
+```shell
+uv run ruff check
+```
+
+other commands that are interesting to run during development are:
+ - `analyze`:  Run analysis over Python source code
+ - `format`: Run the Ruff formatter
+
+ More information can be found at https://docs.astral.sh/ruff/
