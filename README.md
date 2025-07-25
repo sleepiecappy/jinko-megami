@@ -1,4 +1,4 @@
-# Jinkomegami
+# jinkomegami
 
 人工女神 - Environment-Aware Humanoid*
 
