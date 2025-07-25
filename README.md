@@ -41,7 +41,8 @@ It can be found at https://docs.astral.sh/uv/getting-started/installation/
 uv python install 3.13
 ```
 
-4. Create a new virual environment if this is your first time setting it up:
+4. Create a new virtual environment if this is your first time setting it up:
+
 
 ```shell
 uv venv --managed-python

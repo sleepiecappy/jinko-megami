@@ -9,10 +9,12 @@ dependencies = []
 [dependency-groups]
 dev = ["ruff>=0.12.5"]
 
+[tool.setuptools]
+packages = ["jinkomegami"]
+
 [tool.ruff]
 line-length = 80
 
 [tool.ruff.lint]
 target-version = "py313"
 quote-style = "single"
-
