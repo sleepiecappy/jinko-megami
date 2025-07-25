@@ -15,5 +15,4 @@ line-length = 80
 [tool.ruff.lint]
 target-version = "py313"
 quote-style = "single"
-docstring-code-format = true
-docstring-code-line-length = 80
+
