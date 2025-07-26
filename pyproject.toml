@@ -15,6 +15,5 @@ packages = ["jinkomegami"]
 [tool.ruff]
 line-length = 80
 
-[tool.ruff.lint]
-target-version = "py313"
+[tool.ruff.format]
 quote-style = "single"
