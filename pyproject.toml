@@ -7,7 +7,10 @@ requires-python = ">=3.13"
 dependencies = []
 
 [dependency-groups]
-dev = ["ruff>=0.12.5"]
+dev = [
+    "pytest>=8.4.1",
+    "ruff>=0.12.5",
+]
 
 [tool.setuptools]
 packages = ["jinkomegami"]
@@ -15,6 +18,5 @@ packages = ["jinkomegami"]
 [tool.ruff]
 line-length = 80
 
-[tool.ruff.lint]
-target-version = "py313"
+[tool.ruff.format]
 quote-style = "single"
